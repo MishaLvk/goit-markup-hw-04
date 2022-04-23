@@ -45,12 +45,16 @@
             <a
               href="mailto:info@devstudio.com"
               class="link header-contacts-link"
-              >info@devstudio.com</a
+            > <svg class="contacts-icon" width="21" height="16">
+              <use href="./images/symbol-defs.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
             <a href="tel:+380961111111" class="link header-contacts-link"
-              >+38 096 111 11 11</a
+              > <svg class="contacts-icon" width="16" height="21">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -92,7 +96,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img
                   src="./images/basketball-poster.jpg"
                   alt="Постер с баскетболистами"
@@ -107,7 +111,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img
                   src="./images/logo-seafood.jpg"
                   alt="Логотип ресторана Seafood"
@@ -121,7 +125,7 @@
             </li>
 
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img src="./images/headphone.jpg" alt="Наушники" width="370" />
                 <div class="portfolio-description">
                   <h2 class="portfolio-element-title">Проект Prime</h2>
@@ -130,7 +134,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img src="./images/boxes.jpg" alt="Коробки" width="370" />
                 <div class="portfolio-description">
                   <h2 class="portfolio-element-title">Проект Boxes</h2>
@@ -154,7 +158,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img
                   src="./images/magazine.jpg"
                   alt="Открытый журнал"
@@ -169,7 +173,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img
                   src="./images/label-tag.jpg"
                   alt="Дизайн етикетки"
@@ -182,7 +186,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="" class="link">
+              <a href="" class="link portfolio-element-link">
                 <img
                   src="./images/laptop.jpg"
                   alt="Работа за компьютером"
@@ -199,7 +203,8 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container futer-container">
+        <div>
         <a href="./index.html" class="logo link"
           >Web<span class="footer-logo">Studio</span></a
         >
@@ -228,7 +233,25 @@
             </li>
           </ul>
         </address>
-      </div>
+        </div>
+        <div class="join"><h3 class="join-title">Присоединяйтесь</h3>
+          <ul class="join-soc-list">
+            <li class="join-soc-item"><a href="" class="link join-soc-link">
+              <svg width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a></li>
+            <li class="join-soc-item"><a href="" class="link join-soc-link"><svg width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg></a></li>
+            <li class="join-soc-item"><a href="" class="link join-soc-link"><svg width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg></a></li>
+            <li class="join-soc-item"><a href="" class="link join-soc-link"><svg width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg></a></li>
+          </ul></div>
+      </div >
     </footer>
   </body>
 </html>

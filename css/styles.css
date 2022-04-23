@@ -79,6 +79,7 @@ img {
 .header .list-contacts {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .header-navigation .list {
@@ -150,6 +151,7 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  margin: 0 auto;
 }
 
 .hero .container {
@@ -257,6 +259,7 @@ justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -448,6 +451,7 @@ justify-content: center;
 .button-filter:focus {
   color: rgb(255, 255, 255);
   background-color: var(--focus-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -471,6 +475,7 @@ justify-content: center;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  
 }
 
 .portfolio-element-title {
@@ -495,4 +500,14 @@ justify-content: center;
 .portfolio-element-text:hover,
 .portfolio-element-text:focus {
   color: var(--focus-color);
+}
+
+.portfolio-element-link{
+  display: block;
+}
+
+
+.portfolio-element-link:hover,
+.portfolio-element-link:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
